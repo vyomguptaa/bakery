@@ -1,0 +1,180 @@
+.navbar {
+    padding: 0.5rem 0 4.5rem 1.5rem;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.6rem;
+    color: black;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+#title {
+    background-color: #FFF3F1;
+}
+
+.web-para {
+    font-size: 40px;
+    text-align: center;
+    padding-left: 90px;
+}
+
+.title-img {
+    width: 80%;
+    height: 80%;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.para-tagline {
+    text-align: center;
+    padding-left: 50px;
+}
+
+.under {
+    text-decoration-line: underline;
+    text-decoration-color: pink;
+}
+
+.recip-head {
+    font-size: 30px;
+}
+
+.recip {
+    padding: 40px 0 0 140px;
+}
+
+* {
+    max-width: 100%;
+}
+
+#title {
+    background-color: #FFF3F1;
+}
+
+.h1 {
+    line-height: 1.5;
+}
+
+t1 {
+    font-size: larger;
+    position: relative;
+}
+
+.ellipse {
+    transform: rotate(90deg);
+    position: absolute;
+    top: -9rem;
+    right: 31rem;
+}
+
+text {
+    font-size: 1.3rem;
+}
+
+texts1 {
+    font-size: 1.1rem;
+    font-weight: normal;
+    font-family: 'Nunito', sans-serif;
+}
+
+texts {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+hr {
+    border: 0.01rem solid rgb(255, 131, 131);
+}
+
+.textbox-1 {
+    background-color: #FFF3F1;
+    border-radius: 1rem;
+    padding-left: 80px;
+}
+
+.textbox {
+    background-color: #FFF3F1;
+    border-radius: 1rem;
+}
+
+#tricks {
+    background-color: #FFF3F1;
+}
+
+li {
+    line-height: 1.5;
+}
+
+.pastry {
+    position: absolute;
+    top: -8vh;
+    left: 24vw;
+}
+
+.donut {
+    position: absolute;
+    top: -10vh;
+    left: 25vw;
+}
+
+.ellipse1 {
+    transform: rotate(180deg);
+    position: absolute;
+    right: -0.01vw;
+    top: 75vw;
+}
+
+.ladyc {
+    margin-top: -15vw;
+}
+
+#footer {
+    background-color: #4b4b4b;
+}
+
+bold {
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+bold1 {
+    color: white;
+}
+
+@media (max-width:1024px) {
+    .ellipse {
+        visibility: hidden;
+    }
+    .ellipse2 {
+        visibility: hidden;
+    }
+    hr {
+        visibility: hidden;
+    }
+    .donut {
+        visibility: hidden;
+    }
+    .pastry {
+        visibility: hidden;
+    }
+}
+
+@media (max-width:768px) {
+    .lady {
+        visibility: hidden;
+    }
+    .textboxrow {
+        background-color: #FFF3F1;
+    }
+}
