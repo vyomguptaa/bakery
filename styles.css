@@ -70,13 +70,6 @@ t1 {
     position: relative;
 }
 
-.ellipse {
-    transform: rotate(90deg);
-    position: absolute;
-    top: -9rem;
-    right: 31rem;
-}
-
 text {
     font-size: 1rem;
 }
@@ -153,10 +146,7 @@ bold1 {
 }
 
 @media (max-width:1024px) {
-    .ellipse {
-        visibility: hidden;
-    }
-    .ellipse2 {
+    .ellipse1 {
         visibility: hidden;
     }
     hr {
